@@ -1,1 +1,5 @@
 # Santa-Barbara-Weather
+
+This project takes a look at historical weather in Santa Barbara. I used a dataset called “Historical Weather in Santa Barbara (2015-2022)” from kaggle, with variables Date, Average Temperature (oF), Average Dew Point (oF), Average Humidity (%), Maximum Wind Speed (mph), Average Wind Speed (mph), Average Pressure (inHg), Precipitation (in) collected daily from May 1, 2015 to May 1, 2022. My project explored trends in temperature changes in Santa Barbara over a span of seven years and looked into relationships between variables. 
+
+The two models I used were a SARIMA model and ARMAX model. The SARIMA model, as an extension of the ARIMA model, allowed us to look into the seasonal trends that were clearly present in the data. I then used SARIMA forecasting to predict temperatures for a year and compared them with the actual temperatures. The ARMAX model incorporated exongeous variables, in which we took a look at how the other variables affected temperature. I predicted values for a year for ARMAX as well.
